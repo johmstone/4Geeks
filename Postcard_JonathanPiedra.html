@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Postcard Jonathan Piedra</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    background: black;
+    font-family: 'Dancing Script', cursive;
+  }
+  p {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0 10px;
+  }
+  button {
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+  }
+  input{
+    padding: 0.25rem;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 5px 0;
+  }
+  .container {
+    background: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+  }
+  .header{
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .float-rigth {
+    float:right
+  }
+  .float-left {
+    float: left;
+  }
+  .content-center {
+    justify-content: center!important;
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <div class="header row">
+      <div class="float-left" style="width: 75%;">
+        <h1>My Postcard</h1>
+      </div>
+      <div class="float-right" style="width: 25%;">
+        <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" height="100">
+      </div>
+    </div>
+    <div class="row" style="margin: 0 10px;">
+      <div class="float-left" style="width: 50%;">
+        <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my
+            4Geeks Academy Course!
+        </p>
+        <br/>
+        <p>This is so cool, can't wait to start doing more stuff!</p>
+      </div>
+      <div class="float-right" style="width: 50%;">
+        <form style="padding: 0 10px;">
+          <input type="text" id="Name" placeholder="Some Name">
+          <input type="email" id="Email" placeholder="Some Email">
+          <input type="text" id="Comment" placeholder="Some Comment">
+        </form>
+      </div>
+    </div>
+    <div class="row content-center" style="margin-top: 2rem;">
+      <button type="button">
+        Send My Postcard
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
