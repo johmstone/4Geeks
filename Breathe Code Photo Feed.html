@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Breathe Code Photo Feed</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .container {
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    article {
+        width: 700px;
+        display: inline-block;
+        background-color: white;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    article>div>h1 {
+        float: left;
+    }
+
+    article>div>.h1date {
+        float: right;
+        font-weight: normal;
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="text-center">
+            <h1>Breathe Code Photo Feed</h1>
+        </div>
+    </header>
+    <div class="container">
+        <article>
+            <div style="margin: 0 2rem;">
+                <h1>My First Photo</h1>
+                <h1 class="h1date">12/14</h1>
+            </div>
+            <div>
+                <img
+                    src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=640:*'>
+            </div>
+            <div style="margin: 0 2rem;">
+                <p class="text-justify">This is my first phone of the feed, this is the a multi line comment for testing
+                    purpose. I'm leaarling to code with <strong>#BreatheCode</strong>.</p>
+            </div>
+        </article>
+        <article>
+            <div style="margin: 0 2rem;">
+                <h1>Some Cute Thing</h1>
+                <h1 class="h1date">12/14</h1>
+            </div>
+            <div>
+                <img
+                    src='https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/05/16/Pictures/_1571873a-58de-11e8-b431-73159b4b09e2.jpg'>
+            </div>
+            <div style="margin: 0 2rem;">
+                <p class="text-justify">The internet approves this cute dog...<strong>#BreatheCode</strong>.</p>
+            </div>
+        </article>
+        <article>
+            <div style="margin: 0 2rem;">
+                <h1>And of course... food</h1>
+                <h1 class="h1date">12/17</h1>
+            </div>
+            <div>
+                <img
+                    src='https://static.dw.com/image/18605817_303.jpg'>
+            </div>
+            <div style="margin: 0 2rem;">
+                <p class="text-justify">Because no photo feed is cool without some food on it! <strong>#BreatheCode</strong>.</p>
+            </div>
+        </article>
+    </div>
+</body>
